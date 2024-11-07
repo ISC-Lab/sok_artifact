@@ -1,0 +1,4 @@
+papers_reference filter=lfs diff=lfs merge=lfs -text
+codebook_reference filter=lfs diff=lfs merge=lfs -text
+codebook_reference.xlsx filter=lfs diff=lfs merge=lfs -text
+papers_reference.xlsx filter=lfs diff=lfs merge=lfs -text
