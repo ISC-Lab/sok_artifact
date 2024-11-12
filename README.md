@@ -20,7 +20,7 @@ There are no security or privacy issues to the reviewer's machine. There are no 
 No specific hardware is required.
 
 ### Software Requirements
-We use the Mamba Python environment with the anaconda package installed from the anaconda channel (which installs all the required packages). Additionally, `scikit-learn=1.2` is required. The Python version is 3.9.19. Directions to set up the environment can be found below.
+We use the Mamba Python environment with the anaconda package installed from the anaconda channel (which installs all the required packages). Additionally, `scikit-learn=1.2` is required. The Python version is 3.9.19. Directions to set up the environment can be found below. For those who do not wish to use Mamba, a `requirements.txt` file is included (but Python 3.9 is still required). 
 
 The datasets required for the artifact are in the `sok_artifact` folder along with the required py file or Jupyter notebook.
 
@@ -56,6 +56,9 @@ mamba install scikit-learn=1.2
 In the `sok_artifact` folder, run `python envtest.py` to verify all required packages and dataframes can be succesfully loaded.
 
 Note to reviewers: For evaluation, a Standard VM (ID 173) has been set up with the instructions above.
+
+### Using the Jupyter notebook
+To use Jupyter notebooks, run `jupyter notebook` in the terminal when in the `sok_artifact` folder. A webserver will start and open a browser window to the Jupyter interface. Here, the `figure1.ipynb` notebook file can be opened. Alternatively, VSCode can be used with the Jupyter extension to open the `figure1.ipynb` file.
 
 ## Artifact Evaluation (Only for Functional and Reproduced badges)
 
