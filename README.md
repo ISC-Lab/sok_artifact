@@ -22,6 +22,8 @@ No specific hardware is required.
 ### Software Requirements
 We use the Mamba Python environment with the anaconda package installed from the anaconda channel (which installs all the required packages). Additionally, `scikit-learn=1.2` is required. The Python version is 3.9.19. Directions to set up the environment can be found below. For those who do not wish to use Mamba, a `requirements.txt` file is included (but Python 3.9 is still required). 
 
+Note: when using the `requirements.txt` file with `mamba install --file requirements.txt`, the correct conda channels must be set in the mamba environment (otherwise some packages in the correct version may not be found). Alternatively, pip can be used with `pip install -r requirements.txt`.
+
 The datasets required for the artifact are in the `sok_artifact` folder along with the required py file or Jupyter notebook.
 
 ### Estimated Time and Storage Consumption
